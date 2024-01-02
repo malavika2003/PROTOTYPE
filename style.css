@@ -1,0 +1,158 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'sans-serif', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color:  #2ac0c5;
+    
+
+}
+
+header, main, footer {
+    padding: 20px;
+    background-color:  #000000;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#user-info, #badges {
+    width: 45%;
+    margin-left: 180px; 
+    position: relative;
+    font-size: 20px;
+
+}
+
+#user-logo {
+    
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#badge-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .main1 .box{
+   
+    left: 25px;
+    position: relative;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+    width: 90px;
+    height: 90px;
+    gap: 2rem;
+}
+
+section .main1 .columns {
+    position: relative;
+   
+    left: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 90px;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.badge {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-size: cover;
+}
+.more-badges{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    width: 325px;
+    background-color: rgb(53, 50, 50);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 12px 14px #2ac0c5;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.other-badges {
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    color:  white;
+    
+
+}
+.card-content #top1{
+    font-size: 28px;
+    margin-right: 8px;
+}
+
+.card-content .main-btn {
+    display: inline-block;
+    background: #2ac0c5;
+    padding:10px 20px;
+    position:center;
+    top: 200px;
+    left:25px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 4rem;
+    transition: all ease .50s;
+    font-size: 15px;
+}
+.card-content .main-btn:hover{
+    transform: scale(1.1); 
+    background: transparent;
+    border: 2px solid var(--main-color);  
+
+}
